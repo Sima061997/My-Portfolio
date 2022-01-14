@@ -87,7 +87,7 @@ font-size: 20px;
 }
 
   .Textarea {
-    position: fixed;
+    color:rgb(238, 169, 201);
   }
 
 .child1{
@@ -108,7 +108,7 @@ font-size: 20px;
 
 .Greeting{
 font-size: 35px;
-
+color:#edc655;
 }
 
 .Intro {
