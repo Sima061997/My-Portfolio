@@ -74,7 +74,7 @@ font-size: 20px;
   padding: 5px;
   justify-content:last baseline;
 }
-@supports (display:grid) {
+
 .parent {
   width: 98%;
   margin-left: 1%;
@@ -85,9 +85,7 @@ font-size: 20px;
   height: auto;
   align-items: var(--align_items_and_text);
 }
-}
 
-@media all and (max-width: 500px) {
   .parent {
   width: 98%;
   margin-left: 1%;
@@ -98,7 +96,6 @@ font-size: 20px;
   height: auto;
   align-items: var(--align_items_and_text);
 }
-}
 
 
 .child1{
@@ -107,6 +104,7 @@ font-size: 20px;
 
 .child2 {
   width: 49%;
+  position: absolute;
 }
 
 
