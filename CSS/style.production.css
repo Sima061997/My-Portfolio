@@ -1,0 +1,432 @@
+/* Here is the link to my work on SCSS 
+https://codepen.io/SimaDhimal/pen/JjrexGR?editors=1100 */
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Css for Index.html*/
+
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgb(116, 53, 82);
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.page-header__item {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 40px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.page-footer p {
+    font-size: bold;
+    font-size: 18px;
+}
+
+.social-media__item {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    -webkit-box-pack: last baseline;
+    -ms-flex-pack: last baseline;
+    justify-content: last baseline;
+}
+
+.parent {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.child1 {
+    width: 49%;
+}
+
+.child2 {
+    width: 49%;
+}
+
+
+.Profile__Picture {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.Greeting {
+    font-size: 35px;
+
+}
+
+.Intro {
+    font-size: 30px;
+}
+
+.work__link {
+    font-size: 25px;
+}
+
+.profile {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    margin-top: 50%;
+}
+
+/*Css for  About.html*/
+
+h1 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.text-portion {
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.paragraph1 {
+    font-size: 40px;
+    font-style: bold;
+}
+
+.paragraph2,
+.paragraph3 {
+    padding: 3px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.button {
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.button:hover,
+.button:focus {
+    /* lets the mouse appear as a hand when hovering over the button */
+    cursor: pointer;
+    /* reduces the opacity of the button to 80% */
+    opacity: 0.8;
+}
+
+.source-picture {
+    width: 1000px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.star {
+    width: 300px;
+}
+
+.star {
+    fill: rgb(238, 169, 201);
+}
+
+/*Color-change for the stars*/
+@-webkit-keyframes color-change1 {
+    0% {
+        fill: #91804f;
+    }
+
+    50% {
+        fill: #fcffad;
+    }
+
+    100% {
+        fill: #e2ddda;
+    }
+}
+
+@keyframes color-change1 {
+    0% {
+        fill: #91804f;
+    }
+
+    50% {
+        fill: #fcffad;
+    }
+
+    100% {
+        fill: #e2ddda;
+    }
+}
+
+.star {
+    -webkit-animation: 4s color-change1 infinite alternate linear;
+    animation: 4s color-change1 infinite alternate linear;
+}
+
+#path143 {
+    background-color: aqua;
+}
+
+#path2399 {
+    width: 5000px;
+}
+
+/*Color-Change for the Sun*/
+.sun {
+    fill: yellow;
+}
+
+
+@-webkit-keyframes color-change {
+    0% {
+        fill: #edc655;
+    }
+
+    50% {
+        fill: #fcffad;
+    }
+
+    100% {
+        fill: #f76414;
+    }
+}
+
+
+@keyframes color-change {
+    0% {
+        fill: #edc655;
+    }
+
+    50% {
+        fill: #fcffad;
+    }
+
+    100% {
+        fill: #f76414;
+    }
+}
+
+.sun {
+    -webkit-animation: 4s color-change infinite alternate linear;
+    animation: 4s color-change infinite alternate linear;
+}
+
+@-webkit-keyframes sun-move {
+    from {
+        -webkit-transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
+    }
+
+    to {
+        -webkit-transform: translate(-120px, -100px);
+        transform: translate(-120px, -100px)
+    }
+}
+
+@keyframes sun-move {
+    from {
+        -webkit-transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
+    }
+
+    to {
+        -webkit-transform: translate(-120px, -100px);
+        transform: translate(-120px, -100px)
+    }
+}
+
+.sun {
+    -webkit-animation: 5s sun-move infinite alternate linear;
+    animation: 5s sun-move infinite alternate linear;
+}
+
+/*Css for Work.html*/
+@supports (display:grid) {
+
+    .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+        grid-gap: 50px;
+        color: rgb(70, 42, 6);
+    }
+
+    .grid__item {
+        display: -ms-grid;
+        display: grid;
+        background-color: rgb(216, 132, 191);
+    }
+
+    .grid__item:last-child {
+
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .social-media_link {
+        color: rgb(71, 57, 71);
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+        grid-gap: 50px;
+        color: rgb(70, 42, 6);
+    }
+
+    .grid__item {
+        display: -ms-grid;
+        display: grid;
+        background-color: rgb(216, 132, 191);
+    }
+
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .social-media_link {
+        color: rgb(71, 57, 71);
+    }
+}
+
+
+@media all and (min-width:500px) and (max-width:750px) {
+    .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 50px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid__item {
+        display: -ms-grid;
+        display: grid;
+        background-color: rgb(216, 132, 191);
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+        grid-gap: 50px;
+        color: rgb(70, 42, 6);
+    }
+
+    .grid__item:last-child {
+
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+
+    h1 {
+        font-size: 22px;
+        color: beige;
+    }
+
+    .social-media_link {
+        color: rgb(71, 57, 71);
+        padding: 3px;
+    }
+}

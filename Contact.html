@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>Contact Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+</head>
+
+<body>
+    <!-- Header including the logo and the main navigation -->
+    <header class="header">
+        <nav class="nav">
+            <img src="Img/meta-logo.png" alt="logo" class="logo">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="Index.html" role="menuitem" class="nav__link">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="About.html" role="menuitem" class="nav__link">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="Contact.html" role="menuitem" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <a href="mailto:Sima.dhimal97@gmail.com">Send Mail to Sima Dhimal</a><br>
+        Tel: <a href="Mobile Number: +4915736449299">+4915736449299</a><br>
+        Skype <a href="skype:Hello.Sima">hello.Sima</a>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <form action="" method="post">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required>
+
+        <label for="Telephone">Telephone: </label>
+        <input type="tel" id="Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+        <label for="Message">Message: </label>
+        <textarea maxlength="20" id="Message" required></textarea>
+
+        <input type="submit" value="Send message">
+    </form>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
