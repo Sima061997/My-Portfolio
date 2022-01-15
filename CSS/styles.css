@@ -79,27 +79,24 @@ font-size: 20px;
   width: 98%;
   margin-left: 1%;
   margin-top: 5%;
-  display: var(--display_flex_in_index);
-  justify-content: space-between;
-  flex-direction: row;
   height: auto;
-  align-items: var(--align_items_and_text);
-}
-
-.textarea {
-  position: absolute;
 }
 
 .child1{
   width: 49%;
+  
 }
 
 .child2 {
   width: 49%;
+  margin-left: 400px;
+  padding: 100px;
+  
 }
 
 
 .Profile__Picture{
+  float:left;
   border-radius: 50%;
   width: 400px;
   height: 400px;
