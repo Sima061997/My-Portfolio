@@ -64,7 +64,7 @@ font-size: 20px;
 }
 
 .page-footer p {
-  font-size: bold;
+  font-size: italic;
   font-size: 18px;
 }
 
@@ -86,6 +86,10 @@ font-size: 20px;
   align-items: var(--align_items_and_text);
 }
 
+.textarea {
+  position: absolute;
+}
+
 .child1{
   width: 49%;
 }
@@ -103,7 +107,6 @@ font-size: 20px;
 
 .Greeting{
 font-size: 35px;
-
 }
 
 .Intro {
@@ -340,9 +343,43 @@ h1 {
     padding: 3px;
   }
 }
+/*CSS for Contact.html*/
 
+ .form {
+   background-color: rgb(206, 192, 206);
+ display: grid;
+ justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-style: inherit;
+  padding: 100px;
+  margin: 100px;
+  border: 3px solid rgb(168, 163, 163);
+      border-radius: 6px;
+}
 
+label {
+  display: table-cell;
+  width: 50px;
+  height: 20px;
+  padding: 5px;
+  vertical-align: middle;     
+}
 
+button {
+  background-color: rgb(31, 31, 223);
+  color: white;
+  font-style: normal;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 3px;
+}
+
+.my-details {
+  padding: 5px;
+  margin: 10px;
+  justify-content: end;
+}
 
 
 
