@@ -90,11 +90,11 @@ font-size: 20px;
   position: absolute;
 }
 
-.child1{
+.picture {
   width: 49%;
 }
 
-.child2 {
+.text {
   width: 49%;
 }
 
@@ -381,5 +381,7 @@ button {
   justify-content: end;
 }
 
-
+.contact {
+  margin-bottom: 4rem;
+}
 

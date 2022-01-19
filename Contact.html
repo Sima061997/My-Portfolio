@@ -14,22 +14,25 @@
     <!-- Header including the logo and the main navigation -->
     <header class="header">
         <nav class="nav">
+          <a href="index.html">
             <img src="Img/logo.jpg" alt="logo" class="logo">
+          </a>
+            
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
-                    <a href="Index.html" role="menuitem" class="nav__link">Home</a>
+                    <a href="index.html" role="menuitem" class="nav__link">Home</a>
                 </li>
                 <li role="presentation">
-                    <a href="About.html" role="menuitem" class="nav__link">About</a>
+                    <a href="about.html" role="menuitem" class="nav__link">About</a>
                 </li>
                 <li role="presentation">
-                    <a href="Contact.html" role="menuitem" class="nav__link">Contact</a>
+                    <a href="contact.html" role="menuitem" class="nav__link">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="form">
-       <form action="" method="post">
+       <form action="https://formspree.io/f/xayvqjjd" method="post">
          <div class= "contact">
           <label for="fullname">Name</label>
            <input type="text" id="fullname" name="fullname">
@@ -37,7 +40,7 @@
               <input type="email" id="contact-email" required>
                 <br> <br>
                   <label for="Telephone">Telephone: </label>
-                       <input type="tel" id="Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+                       <input type="tel" id="Telephone">
                     <br> <br>
                   <label for="Message">Message: </label>
               <textarea maxlength="500" id="Message" required></textarea>
@@ -45,7 +48,6 @@
            <button type="submit">Send message</button>
          <br>
         </div>
-      <br> <br> <br>
       </form>
         
      <div class="my-details">
